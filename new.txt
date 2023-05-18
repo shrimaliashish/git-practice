@@ -1,0 +1,11 @@
+#setup
+git init
+git remote add url/ssh
+
+#woking with files
+git status
+git add file_name1 file_name2  // add file_name1 and file_name2 to staging area
+git add .  // to add all files to staging area
+git add *  // to add all files to staging area
+git commit -m "two files added"
+git push origin branch_name
